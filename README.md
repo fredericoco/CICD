@@ -45,3 +45,4 @@ In order to create a new job:
 - if it's working the ball on the left will be blue and now you can check the command output
 - Create another test, but this time go to build and add `ps aux`
 - Go back to the first job and configure, click on post build actions and build other projects, choose the second job and trigger after first is successful.
+- ![CICD](https://user-images.githubusercontent.com/39882040/153625097-9fa18c4f-3345-40c6-8ce2-9f212ba025cb.PNG)
