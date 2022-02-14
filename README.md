@@ -8,10 +8,10 @@
 
 In order to use any of the CICD technology we need to have an authenticated connection to github.In order to have an authenticated connection to github with a key we need to enter a command into a bash terminal:
 - Make sure you are in the ssh directory
-- input the command ` ssh-keygen -t rsa -b 4096 -C "fredericoco5@gmail.com"`, the email is the one registered to your github. It will prompt you to give it a name and password. give it a name like `103a` and no password
+- input the command ` ssh-keygen -t rsa -b 4096 -C "example@email.com"`, the email is the one registered to your github. It will prompt you to give it a name and password. give it a name like `103a` and no password
 - This should create a key, you can `cat` the file to make sure it's correct
 - Got to github setting and click on SSH keys, click on new key
-- give it a name `eng103a` and copy the content of `103a.pub` into the key box
+- give it a name `file` and copy the content of `file.pub` into the key box
 - To create the key you will have to be logged in recently
 - create a new repo on github called `CICD etc` (don't add anything like a read me yet)
 - select the SSH and copy the key
